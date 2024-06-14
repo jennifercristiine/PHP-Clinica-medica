@@ -1,0 +1,94 @@
+nav ul {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    padding-right: 200px;
+}
+
+nav li {
+    display: inline-block; 
+    margin-left: 20px; 
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none; 
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #353434; 
+    text-decoration: underline; 
+}
+
+.servicos {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center; 
+    list-style-type: none;
+}
+
+.servicos li {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: left; 
+    transition: border-color 0.3s; 
+}
+
+.servicos li:hover {
+    border-color: #990011; 
+}
+
+.servicos li h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.servicos li:hover h2 {
+    font-size: 35px; 
+}
+
+.servicos li > img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.servicos li p {
+    font-size: 18px; 
+    line-height: 1.5; 
+}
+
+.servicos li .preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#four {
+    width: 100px;
+    float: left;
+    margin: 15px 30px 0 calc(50% - 150px);
+    box-shadow: 10px 10px 5px black;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
